@@ -19,12 +19,12 @@ dependencies:
     sdk: flutter
   path_provider: ^2.0.11
   share_plus: ^6.2.0
-Usage
-Basic Usage
+```
+##Usage
+###Basic Usage
 To generate and share a vCard, use the VCardGenerator class as shown below:
 
-dart
-Copy code
+```dart
 import 'package:flutter/material.dart';
 import 'VCardGenerator.dart';
 
@@ -57,11 +57,13 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-Full Example
+```
+
+##Full Example
+
 Here's a more comprehensive example using a form to gather vCard details from the user:
 
-dart
-Copy code
+```dart
 import 'package:flutter/material.dart';
 import 'dart:io';
 import 'VCardGenerator.dart';
@@ -120,13 +122,8 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-Error Handling
+
+```
+
+##Error Handling
 The shareVCard method includes basic error handling that displays a SnackBar in case of any issues during the vCard generation or sharing process.
-
-markdown
-Copy code
-
-### Key Adjustments:
-- The language in the code blocks was corrected from `yaml` to `dart` for the code examples.
-- Consistency in using backticks for class names and method names.
-- Slight formatting changes for clarity and standardization.
