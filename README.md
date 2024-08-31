@@ -125,5 +125,5 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ```
 
-##Error Handling
+## Error Handling
 The shareVCard method includes basic error handling that displays a SnackBar in case of any issues during the vCard generation or sharing process.
