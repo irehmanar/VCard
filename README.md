@@ -1,16 +1,21 @@
-# vcard
+# VCardGenerator
 
-A new Flutter project.
+A Flutter utility to generate and share vCards. This package allows you to easily create vCards with various fields such as name, organization, phone number, email, address, website, and optionally an image. It also provides a method to share the generated vCard using the `share_plus` package.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Generate vCards with essential contact information.
+- Optionally include an image in the vCard.
+- Share vCards directly from your Flutter app.
+- Fully customizable fields.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add the following dependencies to your `pubspec.yaml` file:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.11
+  share_plus: ^6.2.0
